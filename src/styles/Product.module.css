@@ -1,0 +1,20 @@
+.productItem {
+    width: 200px;
+    height: 400px;
+}
+
+.productImg {
+    width: 200px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.productHost {
+    font-size: 12px;
+    color: gray;
+}
+
+.ProductTitle {
+    margin: 0;
+    font-size: 15px;
+}

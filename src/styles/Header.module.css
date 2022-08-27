@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+.headerWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.headerImg {
+    height: 410px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.headerTextBox {
+    position: absolute;
+    margin: 50px;
+    width: 50%;
+    align-self: center;
+}
+
+.headerTextSubTitle {
+    margin: 0px;
+    color: white;
+    font-size: 40px;
+}
+
+.headerTextSubCaption {
+    color: white;
+}

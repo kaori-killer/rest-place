@@ -1,0 +1,21 @@
+.productParent {
+    display: flex;
+    justify-content: center;
+}
+
+.productListWrap {
+    width: 50vw;
+}
+
+.productListTitle {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
