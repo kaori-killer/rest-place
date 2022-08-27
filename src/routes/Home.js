@@ -17,6 +17,7 @@ function Home() {
 
     return (
         <div>
+            <h6>상품 목록</h6>
             {
                 loading ? (<h1>Loading...</h1>) : (<div>{products.map((product) => (
                 <Product 

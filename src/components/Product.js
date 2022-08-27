@@ -1,14 +1,14 @@
-// import PropTypes from "prop-types";
-// import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 
 function Product({id, img, host, title, price}){
     return (
         <div>
             <img src={img} alt=""/>
-            <p>{host}</p>
-            <h2>{title}</h2>
-            <p>{price}</p>
+            <div>{host}</div>
+            <h6>{title}</h6>
+            <div>{price}</div>
         </div>
     )
 }
